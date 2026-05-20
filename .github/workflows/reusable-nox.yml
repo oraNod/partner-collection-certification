@@ -18,6 +18,9 @@ jobs:
           - session: commitlint
             python-versions: "3.12"
             fetch-depth: 0
+          - session: llms_txt_check
+            python-versions: "3.12"
+            fetch-depth: 0
           - session: build
             python-versions: "3.12"
     name: "Run nox ${{ matrix.session }} session"
