@@ -10,12 +10,14 @@ theme:
   name: 'ansible'
 
 nav:
-  - Home: index.md
-  - Versioning: versioning.md
-  - Ansible core compatibility: ansible-core-compatibility.md
-  - Licensing: licensing.md
-  - README: readmes.md
-  - Changelogs: changelogs.md
-  - Dependencies: dependencies.md
-  - Sanity testing: sanity-testing.md
-  - Static analysis: static-analysis.md
+  - Certification requirements:
+      - index.md
+      - Versioning: versioning.md
+      - Ansible core compatibility: ansible-core-compatibility.md
+      - Licensing: licensing.md
+      - Project README: readmes.md
+      - Changelogs: changelogs.md
+      - Dependencies: dependencies.md
+      - Sanity testing: sanity-testing.md
+      - Static analysis: static-analysis.md
+  - Certification tooling: tooling.md
