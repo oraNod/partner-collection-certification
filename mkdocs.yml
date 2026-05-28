@@ -34,6 +34,8 @@ plugins:
           - static-analysis.md
         Certification tooling:
           - tooling.md
+        Templates:
+          - readme-template.md
         Review output:
           - review_summary.md
 
