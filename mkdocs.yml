@@ -5,6 +5,11 @@ repo_url: https://github.com/ansible/partner-certification
 edit_uri: blob/main/docs/
 docs_dir: docs
 strict: true
+validation:
+  nav:
+    not_in_nav: INFO
+not_in_nav: |
+  readme-template.md
 
 theme:
   name: 'ansible'
