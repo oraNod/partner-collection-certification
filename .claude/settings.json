@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(python3:*)",
+      "Bash(ansible-lint:*)",
+      "Bash(ansible-test sanity:*)",
+      "WebFetch(https://partner-certification-requirements.readthedocs.io/*)"
+    ]
+  }
+}
