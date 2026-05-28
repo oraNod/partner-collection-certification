@@ -1,6 +1,6 @@
 # README requirements
 
-Collection READMEs should follow the [certified collection README template](https://access.redhat.com/articles/7068606) to provide a consistent experience.
+Collection READMEs should follow the [certified collection README template](readme-template.md) to provide a consistent experience.
 
 ## Required content
 
