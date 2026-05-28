@@ -22,6 +22,11 @@ Install the skill from this repository as a Claude Code plugin:
 claude install-skill github:ansible-collections/partner-certification-requirements
 ```
 
+### Permissions
+
+The skill includes a `.claude/settings.json` that pre-approves read-only commands like `grep`, `find`, and `cat` so that Claude can explore your collection without prompting for each action.
+If the permissions are not picked up automatically, copy `.claude/settings.json` from this repository into your collection project.
+
 ### Run a certification review
 
 Open your collection project directory in Claude Code and invoke the skill:
